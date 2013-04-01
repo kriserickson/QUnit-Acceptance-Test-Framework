@@ -2,7 +2,7 @@
   "name": "QUnit-Acceptance-Test-Framework",
   "version": "0.0.1",
   "dependencies": {
-    "grunt": "0.3.x",
-    "temporary": "~0.0.4"
+    "grunt": "0.4.x",
+
   }
 }

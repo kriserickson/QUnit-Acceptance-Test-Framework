@@ -3,15 +3,15 @@ define([
 	
 ], function(jQuery) {
 
-	var $$ = jQuery.noConflict(true);
+	var $ = jQuery.noConflict(true);
 
 	require(['suite1']);
 
-	$$(document).ready(function() {
+	$(document).ready(function() {
 		QUnit.start();
 	});
 
-	$$('#myFrame').load(function() {
+	$('#myFrame').load(function() {
 		//grab jQuery from the iFrame everytime the iFrame loads
 		$ = jQuery = this.contentWindow.jQuery;
 

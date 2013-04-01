@@ -5,8 +5,8 @@
 			// path configuration assumes .js suffix
 
 			// Libraries
-			'jQuery': '../../js/libs/jquery-1.8.2.min',
-			'Underscore': '../../js/libs/underscore'
+			'jQuery': '../js/jquery',
+			'Underscore': '../js/underscore'
 		},
 		shim: {
 			'jQuery': {
